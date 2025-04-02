@@ -1,9 +1,57 @@
 {
-  "global": {},
+  "global": {
+    "Purple": {
+      "value": "#5E239D",
+      "type": "color",
+      "description": "Original made into a token. Purple is the original"
+    },
+    "Heading 1 token": {
+      "value": "Montserrat",
+      "type": "fontFamilies"
+    },
+    "Heading 1 font size token": {
+      "value": "50",
+      "type": "fontSizes"
+    },
+    "Heading 1 font weight token": {
+      "value": "700",
+      "type": "fontWeights",
+      "description": "Bold in original"
+    },
+    "Page Background color": {
+      "value": "#1E1E1E",
+      "type": "color",
+      "description": "Original background "
+    },
+    "favicon-Vector-width": {
+      "value": "14.39px",
+      "type": "dimension",
+      "description": "logo vector width"
+    },
+    "favicon-Vector-height": {
+      "value": "15.51px",
+      "type": "dimension",
+      "description": "logo vector height"
+    },
+    "Document opacity": {
+      "value": "100%",
+      "type": "opacity"
+    },
+    "favicon-vector-fill": {
+      "value": "#FBB452",
+      "type": "color"
+    },
+    "body-fill": {
+      "value": "#FFFFFF",
+      "type": "color"
+    }
+  },
+  "Enola": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "Enola"
     ]
   }
 }
